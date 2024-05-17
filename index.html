@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Transforme Seu Lixo em Sorriso</title>
+	<link rel="icon" type="image/jpeg" href="images/logo.jpeg">
 	<style type="text/css">
 		*{
 			margin: 0;
@@ -19,13 +20,53 @@
 			text-transform: uppercase;
 			text-align: center;
 		}
+		section div.box{
+			border: solid 2px #154854;
+			height: 208px;
+			padding: 10px;
+		}
+		section div.box p.p{
+			text-align: justify;
+			text-indent: 30px;
+			font-family: Arial, sans-serif;
+			font-size: .8rem;
+			margin-left: 10px;
+		}
+		section div.box h2{
+			font-family: Arial,  sans-serif;
+			text-transform: uppercase;
+			font-size: 1rem;
+		}
+		section div.box img#i{
+		 	width: 15%;
+		 	float: left;
+		}
+		p.p1{
+			display: flex;
+			align-items: center;
+		}
+		p.p1 img{
+			width: 10%;
+		}
 	</style>
 </head>
 <body>
 	<header class="he">Galery</header>
 	<section class="images">
-		<div class="img">
-			<img src="images/logo.png">
+		<div class="box">
+			<div class="img">
+				<img src="images/logo.jpeg" id="i">
+			</div>
+			<div class="obj">
+				<h2>Objetivo: </h2>
+				<p class="p">
+					Fazer a coleta de lixo eletrônico nos campus SEDE E CCS da faculdade FIED/UNINTA. Após a coleta, será realizada a separação e verificação dos materiais coletados e feito uma seleção das peças funcionais. A partir daí, montaremos novos aparelhos com os materiais descartados e que ainda estejam funcionando e realizaremos a venda ou doação para a ong que cuida das pessoas com necessidades especiais.
+				</p>
+				<p class="p1">
+					Entre em nosso instaram e saiba mais: 
+					<img src="images/qr_insta.jpeg">
+				</p>
+			</div>
 		</div>
 	</section>
 </body>
