@@ -23,68 +23,81 @@
 			text-align: center;
 			text-transform: uppercase;
 		}
-	section.images{
-		padding: 20px;
-		background-color: #ffffff;
-		border-radius: 0 0 5px 5px;
-		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-	}
-	section.images .box{ 
-		display: flex; 
-		align-items: center;
-	justify-content: space-between;
-	margin-bottom: 20px;
-	}
-	section.images .box .img{
-		flex-basis: 25%;
-	}
-	section.images .box .img img{
-		width: 100%;
-		border-radius: 5px;
-	}
-	section.images .box .obj{
-		flex-basis: 70%;
-		margin-left: 20px;
-	} 
-	section.images .box .obj h2{
-		font-size: 1.5rem;
-		margin-bottom: 10px;
-	}
-	section.images .box .obj p{
-		text-align: justify;
-		font-size: 1rem;
-		margin-bottom: 10px;
-	} 
-	section.images .box .obj p.p1{
-		display: flex;
-		align-items: center;
-		font-size: 0.9rem;
-	}
-	section.images .box .obj p.p1 img{
-		width: 20px;
-		margin-left: 10px;
-	}
-	p.p1 a{
-		background-color: darkgreen;
-		padding: 10px;
-		color: #ebebeb;
-		border-radius: 10px;
-		box-shadow: 0px 0px 10px #c0c0c0;
-	}
-	@media screen and (max-width: 768px){
-		section.images .box{
-			flex-direction: column;
+		section.images{
+			padding: 20px;
+			background-color: #ffffff;
+			border-radius: 0 0 5px 5px;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+		}
+		section.images .box{ 
+			display: flex; 
 			align-items: center;
+			justify-content: space-between;
+			margin-bottom: 20px;
 		}
 		section.images .box .img{
-			flex-basis: 100%;
-			margin-bottom: 20px; 
+			flex-basis: 25%;
+		}
+		section.images .box .img img{
+			width: 100%;
+			border-radius: 5px;
 		}
 		section.images .box .obj{
-			flex-basis: 100%;
+			flex-basis: 70%;
+			margin-left: 20px;
+		} 
+		section.images .box .obj h2{
+			font-size: 1.5rem;
+			margin-bottom: 10px;
 		}
-	}
-</style>
+		section.images .box .obj p{
+			text-align: justify;
+			font-size: 1rem;
+			margin-bottom: 10px;
+		} 
+		section.images .box .obj p.p1{
+			display: flex;
+			align-items: center;
+			font-size: 0.9rem;
+		}
+		section.images .box .obj p.p1 img{
+			width: 20px;
+			margin-left: 10px;
+		}
+		/*p.p1 a{
+			background-color: darkgreen;
+			padding: 10px;
+			color: #ebebeb;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px #c0c0c0;
+		}*/
+		.instagram-button {
+			border-radius: 10px;
+		    display: inline-block;
+		    padding: 10px 20px;
+		    background-color: #405de6;
+		    color: #fff;
+		    text-decoration: none;
+		    font-size: 1rem;
+		    transition: background-color 0.3s ease;
+		}
+		.instagram-button:hover {
+		    background-color: #334cd6;
+		}
+		@media screen and (max-width: 768px){
+			section.images .box{
+				flex-direction: column;
+				align-items: center;
+			}
+			section.images .box .img{
+				flex-basis: 100%;
+				margin-bottom: 20px; 
+			}
+			section.images .box .obj{
+				flex-basis: 100%;
+			}
+		}
+	</style>
 </head>
 <body>
 	<header class="he">
@@ -100,10 +113,10 @@
 					Fazer a coleta de lixo eletrônico nos campi SEDE e CCS da Faculdade FIED/UNINTA. Após a coleta, será realizada a separação e verificação dos materiais coletados, selecionando as peças funcionais. Montaremos novos aparelhos com os materiais descartados que ainda estejam funcionando e realizaremos a venda ou doação para a ONG que cuida das pessoas com necessidades especiais.
 				</p>
 				<p class="p1">
-					Entre em nosso Instagram e saiba mais:&nbsp;&nbsp;
-					<a href="https://instagram.com/transformeseulixoemsorriso?igsh=M2c1bml3dG9yY240" target="_blanck">
-						<strong>@transformeseulixoemsorriso</strong>
-					</a>
+				    Entre em nosso Instagram e saiba mais:&nbsp;&nbsp;
+				    <a href="https://instagram.com/transformeseulixoemsorriso?igsh=M2c1bml3dG9yY240" target="_blank" class="instagram-button">
+				        <strong>@transformeseulixoemsorriso</strong>
+				    </a>
 				</p>
 			</div>
 		</div>
