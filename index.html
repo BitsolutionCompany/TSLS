@@ -1,70 +1,109 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Transforme Seu Lixo em Sorriso</title>
 	<link rel="icon" type="image/jpeg" href="images/logo.jpeg">
-	<style type="text/css">
+	<style type="text/css"> 
 		*{
+			box-sizing: border-box;
 			margin: 0;
 			padding: 0;
-			box-sizing: border-box;
+		}
+		body{ 
+			font-family: Arial, sans-serif; 
+			background-color: #f5f5f5;
 		}
 		header.he{
 			background: #154864;
-			padding: 10px;
-			color: #ebebeb;
+			padding: 20px;
+			color: #ebebeb; 
 			font-weight: bold;
 			font-size: 2rem;
-			text-transform: uppercase;
 			text-align: center;
-		}
-		section div.box{
-			border: solid 2px #154854;
-			height: 208px;
-			padding: 10px;
-		}
-		section div.box p.p{
-			text-align: justify;
-			text-indent: 30px;
-			font-family: Arial, sans-serif;
-			font-size: .8rem;
-			margin-left: 10px;
-		}
-		section div.box h2{
-			font-family: Arial,  sans-serif;
 			text-transform: uppercase;
-			font-size: 1rem;
 		}
-		section div.box img#i{
-		 	width: 20%;
-		 	float: left;
-		}
-		p.p1{
-			display: flex;
+	section.images{
+		padding: 20px;
+		background-color: #ffffff;
+		border-radius: 0 0 5px 5px;
+		box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	}
+	section.images .box{ 
+		display: flex; 
+		align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	}
+	section.images .box .img{
+		flex-basis: 25%;
+	}
+	section.images .box .img img{
+		width: 100%;
+		border-radius: 5px;
+	}
+	section.images .box .obj{
+		flex-basis: 70%;
+		margin-left: 20px;
+	} 
+	section.images .box .obj h2{
+		font-size: 1.5rem;
+		margin-bottom: 10px;
+	}
+	section.images .box .obj p{
+		text-align: justify;
+		font-size: 1rem;
+		margin-bottom: 10px;
+	} 
+	section.images .box .obj p.p1{
+		display: flex;
+		align-items: center;
+		font-size: 0.9rem;
+	}
+	section.images .box .obj p.p1 img{
+		width: 20px;
+		margin-left: 10px;
+	}
+	p.p1 a{
+		background-color: darkgreen;
+		padding: 10px;
+		color: #ebebeb;
+		border-radius: 10px;
+		box-shadow: 0px 0px 10px #c0c0c0;
+	}
+	@media screen and (max-width: 768px){
+		section.images .box{
+			flex-direction: column;
 			align-items: center;
 		}
-		p.p1 img{
-			width: 10%;
+		section.images .box .img{
+			flex-basis: 100%;
+			margin-bottom: 20px; 
 		}
-	</style>
+		section.images .box .obj{
+			flex-basis: 100%;
+		}
+	}
+</style>
 </head>
 <body>
-	<header class="he">Galery</header>
+	<header class="he">
+		Transforme Seu Lixo em Sorriso
+	</header>
 	<section class="images">
-		<div class="box">
-			<div class="img">
-				<img src="images/logo.jpeg" id="i">
-			</div>
-			<div class="obj">
-				<h2>Objetivo: </h2>
+		<div class="box"> <div class="img">
+			<img src="images/logo.jpeg" id="i" alt="Logo">
+		</div>
+		<div class="obj">
+			<h2>Objetivo:</h2>
 				<p class="p">
-					Fazer a coleta de lixo eletrônico nos campus SEDE E CCS da faculdade FIED/UNINTA. Após a coleta, será realizada a separação e verificação dos materiais coletados e feito uma seleção das peças funcionais. A partir daí, montaremos novos aparelhos com os materiais descartados e que ainda estejam funcionando e realizaremos a venda ou doação para a ong que cuida das pessoas com necessidades especiais.
+					Fazer a coleta de lixo eletrônico nos campi SEDE e CCS da Faculdade FIED/UNINTA. Após a coleta, será realizada a separação e verificação dos materiais coletados, selecionando as peças funcionais. Montaremos novos aparelhos com os materiais descartados que ainda estejam funcionando e realizaremos a venda ou doação para a ONG que cuida das pessoas com necessidades especiais.
 				</p>
 				<p class="p1">
-					Entre em nosso instaram e saiba mais: 
-					<img src="images/qr_insta.jpeg">
+					Entre em nosso Instagram e saiba mais:&nbsp;&nbsp;
+					<a href="https://instagram.com/transformeseulixoemsorriso?igsh=M2c1bml3dG9yY240" target="_blanck">
+						<strong>@transformeseulixoemsorriso</strong>
+					</a>
 				</p>
 			</div>
 		</div>
