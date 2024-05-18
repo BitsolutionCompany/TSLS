@@ -4,97 +4,7 @@
 	<meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Transforme Seu Lixo em Sorriso</title>
 	<link rel="icon" type="image/jpeg" href="images/logo.jpeg">
-	<style type="text/css"> 
-		*{
-			box-sizing: border-box;
-			margin: 0;
-			padding: 0;
-		}
-		body{ 
-			font-family: Arial, sans-serif; 
-			background-color: #f5f5f5;
-		}
-		header.he{
-			background: #154864;
-			padding: 20px;
-			color: #ebebeb; 
-			font-weight: bold;
-			font-size: 2rem;
-			text-align: center;
-			text-transform: uppercase;
-		}
-		section.images{
-			padding: 20px;
-			background-color: #ffffff;
-			border-radius: 0 0 5px 5px;
-			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-		}
-		section.images .box{ 
-			display: flex; 
-			align-items: center;
-			justify-content: space-between;
-			margin-bottom: 20px;
-		}
-		section.images .box .img{
-			flex-basis: 25%;
-		}
-		section.images .box .img img{
-			width: 100%;
-			border-radius: 5px;
-		}
-		section.images .box .obj{
-			flex-basis: 70%;
-			margin-left: 20px;
-		} 
-		section.images .box .obj h2{
-			font-size: 1.5rem;
-			margin-bottom: 10px;
-		}
-		section.images .box .obj p{
-			text-align: justify;
-			font-size: 1rem;
-			margin-bottom: 10px;
-		} 
-		section.images .box .obj p.p1{
-			display: flex;
-			align-items: center;
-			font-size: 0.9rem;
-			flex-wrap: wrap;
-		}
-		section.images .box .obj p.p1 img{
-			width: 20px;
-			margin-left: 10px;
-		}
-		.instagram-button {
-			border-radius: 10px;
-		    display: inline-block;
-		    padding: 10px 20px;
-		    background-color: #405de6;
-		    color: #fff;
-		    text-decoration: none;
-		    font-size: 1rem;
-		    transition: background-color 0.3s ease;
-		}
-		.instagram-button:hover {
-		    background-color: #334cd6;
-		}
-		@media screen and (max-width: 768px){
-			.instagram-button {
-				margin: 10px auto 0px;
-			}
-			section.images .box{
-				flex-direction: column;
-				align-items: center;
-			}
-			section.images .box .img{
-				flex-basis: 100%;
-				margin-bottom: 20px; 
-			}
-			section.images .box .obj{
-				flex-basis: 100%;
-			}
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 	<header class="he">
@@ -118,5 +28,28 @@
 			</div>
 		</div>
 	</section>
+	<section class="about-ong">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+			    	<img src="images/ong-image.jpg" alt="Imagem da ONG" class="img-fluid">
+			  	</div>
+				<div class="col-md-6 c">
+				    <h2>Nossa Missão</h2>
+				    <p>Nossa ONG tem como missão cuidar e apoiar pessoas com necessidades especiais, promovendo a inclusão social e a melhoria da qualidade de vida dessas pessoas. Trabalhamos para garantir que elas tenham as mesmas oportunidades e direitos das outras pessoas, promovendo a igualdade e a justiça social.</p>
+				    <p>Através de nossos programas e projetos, oferecemos assistência especializada, terapia, educação e treinamento, além de promover a conscientização e o engajamento da sociedade em relação às necessidades e direitos das pessoas com deficiência.</p>
+				    <p class="p1">
+				      Entre em contato conosco para saber como você pode ajudar:&nbsp;&nbsp;
+				      <a href="mailto:contato@ong.org" target="_blank">
+				        <strong>contato@ong.org</strong>
+				      </a>
+				    </p>
+				</div>
+		    </div>
+		</div>
+	</section>
+	<footer>
+	 	<p>&copy; 2023 Transforme Seu Lixo em Sorriso. Todos os direitos reservados.</p>
+	</footer>
 </body>
 </html>
