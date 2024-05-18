@@ -59,18 +59,12 @@
 			display: flex;
 			align-items: center;
 			font-size: 0.9rem;
+			flex-wrap: wrap;
 		}
 		section.images .box .obj p.p1 img{
 			width: 20px;
 			margin-left: 10px;
 		}
-		/*p.p1 a{
-			background-color: darkgreen;
-			padding: 10px;
-			color: #ebebeb;
-			border-radius: 10px;
-			box-shadow: 0px 0px 10px #c0c0c0;
-		}*/
 		.instagram-button {
 			border-radius: 10px;
 		    display: inline-block;
@@ -85,6 +79,9 @@
 		    background-color: #334cd6;
 		}
 		@media screen and (max-width: 768px){
+			.instagram-button {
+				margin: 10px auto 0px;
+			}
 			section.images .box{
 				flex-direction: column;
 				align-items: center;
