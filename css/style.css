@@ -123,6 +123,9 @@ footer {
 	flex-direction: column;
 	justify-content: center;
 }
+.col-md-6 img{
+	margin: 10px auto 10px;
+}
 .about-ong img{
 	width: 100%;
 	max-width: 300px;
@@ -132,5 +135,8 @@ footer {
 @media (max-width: 767.98px){
 	.about-ong .col-md-6 {
 		flex-basis: 100%;
+	}
+	.col-md-6 img{
+		margin: 10px auto 10px;
 	}
 }
