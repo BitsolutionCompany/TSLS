@@ -140,3 +140,7 @@ footer {
 		margin: 10px auto 10px;
 	}
 }
+ small{
+	font-weight: bold;
+	text-transform: uppercase;
+}
